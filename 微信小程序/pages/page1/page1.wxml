@@ -1,0 +1,10 @@
+<view>{{name}}</view>
+<view>{{tmp}}</view>
+<!-- wx-for循环 -->
+ <view wx:for="{{arr}}">   
+  {{index}}---{{item}} 
+</view>
+<!-- wx-for循环 -->
+<view wx:for="{{arr}}">    
+  {{item.id}}---{{item.name}}
+  </view>

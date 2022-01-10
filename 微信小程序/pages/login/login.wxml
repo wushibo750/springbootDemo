@@ -1,0 +1,4 @@
+<view>用户名：<input bindinput="getName"></input></view>
+<view>密码：<input  bindinput="getPasswd"></input></view>
+<button bindtap="login">登录</button>
+<button bindtap="register">注册</button>
